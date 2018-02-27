@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'gillsans';
+    src: url('GillSans.ttc') format('truetype'),
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+  background-color: white;
+}
+
+ul{
+  list-style-type: none;
+  margin:0;
+}
+
+li{
+  display: inline-block;
+  float: right;
+  margin: auto;
+  white-space: nowrap;
+  padding: 18px;
+  line-height: 25px;
+}
+
+li a{
+  margin: auto;
+  color: #515151;
+  font-family: gillsans;
+  font-size: 11px;
+  text-align: center;
+  transition: color 0.4s ease 0s;
+  text-decoration: none;
+  white-space: nowrap;
+}
+img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.home{
+  flex: 1 1 auto;
+  width: 980px;
+  height: 735px;
+  top: 69px;
+  bottom: 44px;
+  margin: auto;
+  object-fit: cover;
+}
+
+.footer{
+  flex: 1 1 auto;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding-top: 55px;
+  margin-bottom: 0;
+  height: 35px;
+  font-family: gillsans;
+  color: gray;
+  font-size: 12px
+}
