@@ -1,0 +1,44 @@
+body{
+	position: absolute;
+}
+.container{
+
+}
+.emilybaro{
+	margin-top:410px;
+	margin-left:1700px;
+	color:#000000;
+	font-family: bebas;
+	font-size: 120pt;
+}
+.text{
+	margin-top:50px;
+	margin-left:1700px;
+	color:#383838;
+	font-family: hk grotesk;
+	font-size: 58pt;
+}
+div img{
+	height:100%;
+	width:100%;
+}
+.image-style{
+	margin-left: 600px;
+	margin-top: -850px;
+	width: 1000px;
+	height: 1000px;
+	transform: rotate(90deg);
+}
+a{
+	margin-top:50px;
+	margin-left:1700px;
+	color:#383838;
+	font-family: hk grotesk;
+	font-size: 58pt;
+}
+a:link {
+color: #383838;
+}
+a:hover {
+color: #b4193e;
+}
