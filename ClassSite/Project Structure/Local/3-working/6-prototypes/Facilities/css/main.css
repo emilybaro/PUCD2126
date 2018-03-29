@@ -1,0 +1,422 @@
+/*Main Stylesheet*/
+
+/*Overall*/
+
+*{
+	border:0;
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+/*ul{
+  font-family: HKGrotesk-Medium;
+  font-size: 20px;
+  color: #FFCB04;
+  letter-spacing: 0;
+}*/
+
+li{
+        list-style: none;
+        font-weight: 300;
+        font-size: 12px;
+        letter-spacing: 1px;
+        padding 7px 0 7px 0;
+    }
+
+html,body{
+	height:100%;
+  font-family: 'HKGrotesk', sans-serif;
+  font-family: HKGrotesk-Regular;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 23px;
+}
+
+.logo{
+  flex: 1 1 auto;
+  display: block;
+  /* BarnBuddy: */
+  font-family: HKGrotesk-Bold;
+  font-size: 72px;
+  color: #000000;
+  letter-spacing: 0;
+  text-align: center;
+  width: 100%;
+  margin-top: 2px;
+  margin-bottom: 0;
+  height: 60px;
+
+  padding-top: 15px;
+}
+
+.mirc-image{
+  position:absolute;
+  height:45%;
+  margin-top: 50px;
+
+}
+
+.line{
+  /* Line: */
+  position: absolute;
+  border: 1px solid #000000;
+  width:100%;
+  margin-top: -70px;
+}
+
+.facility-name{
+
+  /* MIRC (Miami Internat: */
+  transform: rotate(-360deg);
+  font-family: HKGrotesk-SemiBold;
+  font-size: 24px;
+  color: #FFCB04;
+  letter-spacing: 0;
+  text-align: center;
+  /* background: rgba(60, 60, 60, 1); */
+  width: 66.7%;
+  /*margin-top: 0;
+  margin-left: 250px;
+  margin-right: 150px;*/
+  margin: auto;
+  height: 30px;
+  white-space: nowrap;
+	border-color: black;
+	border-bottom: 3px;
+
+  padding-top: 90px;
+  padding-bottom: 25px;
+
+ 
+}
+
+
+.row{
+	display: flex;
+}
+/*Typography*/
+
+h1{
+	font-size: 48px;
+	font-weight:700;
+	color: #FFFFFF;
+	letter-spacing: 0;
+	text-align: center;
+	line-height: 1.1;
+}
+
+
+
+.stalls{
+  font-family: HKGrotesk-Regular;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-top: 400px;
+}
+
+.pastures{
+  font-family: HKGrotesk-Regular;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.staff{
+  font-family: HKGrotesk-Regular;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+.hay{
+  font-family: HKGrotesk-Regular;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.maintenance{
+  font-family: HKGrotesk-Regular;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.tackroom{
+  font-family: HKGrotesk-Regular;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin-top: 400px;
+
+}
+
+.ambience{
+  font-family: HKGrotesk-Regular;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+.lounge{
+  font-family: HKGrotesk-Regular;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.arenas{
+  font-family: HKGrotesk-Regular;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.restrooms{
+  font-family: HKGrotesk-Regular;
+  font-size: 18px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+p{
+	/* After about two week: */
+	font-weight: 300;
+	font-size: 17px;
+	color: #393D3C;
+	letter-spacing: 0;
+	line-height: 1.4;
+	margin-bottom:20px;
+}
+
+}
+
+/*Layout*/
+
+.grid-base{
+	width:100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 0;
+}
+
+.grid-base .col{
+	height: 3000px;
+
+}
+
+.col{
+	border:1px dashed rgba(255,0,0,0.3);
+	display: inline-block;
+	float: left;
+	padding:20px;
+
+}
+
+.col-1{
+    width:8.33%;
+}
+
+.col-2{
+    width:16.66%;
+}
+
+.col-3{
+    width:25%;
+}
+
+.col-4{
+    width:33.33%;
+}
+.col-5{
+    width:41.66%;
+}
+.col-6{
+    width:50%;
+}
+
+.col-7{
+    width:58.33%;
+}
+
+.col-8{
+    width:66.66%;
+}
+
+.col-9{
+    width:75%;
+}
+
+.col-10{
+    width:83.33%;
+}
+
+.col-11{
+    width:91.66%;
+}
+
+.col-12{
+    width:100%;
+}
+
+.wrapper{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 1;
+}
+
+.hero{
+	background-image: url("../img/hero.jpg");
+	height:40%;
+	position: center;
+	background-size: cover;
+}
+
+.hero h1{
+	position: relative;
+  left:50%;
+  top:50%;
+  height: auto;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.meta{
+	margin-left: 8.33%;
+	margin-top: 180px;
+}
+
+.meta li{
+	list-style: none;
+	border-bottom: 1px solid #E8E8E8;
+	font-weight: 300;
+	font-size: 12px;
+	color: #99A2A0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	padding: 7px 0 7px 0;
+}
+
+.content-center{
+	margin:0 auto;
+	float: none;
+	display: block;
+}
+
+
+
+
+@media screen and (max-width: 1000px){
+	/*Tablet*/
+	.col-t-1 {width: 8.33%;}
+    .col-t-2 {width: 16.66%;}
+    .col-t-3 {width: 25%;}
+    .col-t-4 {width: 33.33%;}
+    .col-t-5 {width: 41.66%;}
+    .col-t-6 {width: 50%;}
+    .col-t-7 {width: 58.33%;}
+    .col-t-8 {width: 66.66%;}
+    .col-t-9 {width: 75%;}
+    .col-t-10 {width: 83.33%;}
+    .col-t-11 {width: 91.66%;}
+    .col-t-12 {width: 100%;}
+
+	.meta{
+		margin-left: 0;
+	}
+
+	.content.content-center{
+		margin-left: 25%;
+		float: left;
+	}
+
+
+}
+
+@media screen and (max-width: 660px){
+
+	h1{
+        font-size: 36px;
+    }
+
+    h2{
+        margin: 0 0 20px;
+        font-size: 24px;
+    }
+
+    blockquote{
+        font-size: 24px;
+    }
+
+    .col {
+    width:100%;
+    border: 1px dashed rgba(255,0,0,0.3);
+    display: inline-block;
+    }
+
+    .meta{
+    	margin-top: 0;
+    }
+
+    .content.content-center{
+    	margin-left:0;
+    }
+
+    .meta li{
+        list-style: none;
+        font-weight: 300;
+        font-size: 12px;
+        letter-spacing: 1px;
+        padding 7px 0 7px 0;
+    }
+
+    .meta li:nth-child(even){
+        margin-right: 0;
+	 }
+   .meta li:first-child{
+    color: black;
+    font-weight: bold;
+    margin-bottom: 10px;
+    }
+    .meta li:nth-child(2){
+    font-weight: bold;
+    color: rgba(255,205,0,1);
+    }
+    .meta li:nth-child(3){
+    color: rgba(255,205,0,1);
+    opacity: 0.5;
+    }
+    .meta li:nth-child(4){
+    color: rgba(255,205,0,1);
+    opacity: 0.5;
+    }
+    .meta li:nth-child(5){
+    font-weight: bold;
+    color: rgba(255,205,0,1);
+    }
+    .meta li:nth-child(6){
+    color: rgba(255,205,0,1);
+    opacity: 0.5;
+    }
+    .meta li:nth-child(7){
+    color: rgba(255,205,0,1);
+    opacity: 0.5;
+    }
+
+}
+
