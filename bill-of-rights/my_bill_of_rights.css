@@ -1,10 +1,16 @@
 body {
   background-image: url(http://www.americanrestaurantequip.com/wp-content/uploads/waving-american-usa-flag-pattern-background-design.png);
   background-repeat: repeat-y;
-  background-size: 5%;
-  background-color: black;
+  background-size: 0%;
+  background-color: white;
   width: 80em;
   margin: 0 auto;
+  line-height: 32px;
+  margin: 50px;
+}
+
+img{
+  margin-top: 100px;
 }
 
 header, footer {
@@ -14,22 +20,28 @@ header, footer {
 }
 
 h1, footer p {
-  margin: -70px;
+  margin: -10px;
 }
 
 h1 {
   text-align: center;
   padding: 0.5em 0;
+  color: #4054B6;
 }
 
 #floatd {
   float: left;
 }
-
+/*
 p {
   position: absolute;
+}*/
+
+/*.relative {
+  position: absolute; 
+}*/
+
+h2{
+  font-size: 22pt;
 }
 
-.relative {
-  position: absolute; 
-}

@@ -1,0 +1,80 @@
+body{
+	background: #F5F5F5;
+	font-family: 'Lato', sans-serif;
+}
+h1{
+	color:#DB7093;
+}
+.parent{
+	background: #00789D;
+}
+.parent:before {
+	content:'«';
+	background: #E7E746;
+	padding:5px;
+}
+.parent:after{
+	content:'»';
+	background: #AAAAE5;
+	color: #212121;
+	padding: 5px;
+}
+.child:first-child {
+	color: yellow;
+}
+.child:before {
+	content:'yummy';
+}
+.child:before:hover{
+	color: black;
+}
+
+/*Shapes*/
+.square {
+	width: 100px;
+	height: 100px;
+	background:#8484A8;
+}
+.rectangle{
+	width: 100px;
+	height: 200px;
+	background:pink;
+}
+.circle{
+	width: 100px;
+	height:100px;
+	background: #8484A8;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+}
+.pill{
+	width: 100px;
+	height:400px;
+	background: #FF8C00;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+}
+.triangle-up{
+	width: 0;
+	height:0;
+	border-left:50px solid transparent;
+	border-right:50px solid transparent;
+	border-bottom: 100px solid #FF1493;
+	margin-bottom:5px;
+}
+.trapezoid{
+	width: 100px;
+	height:0;
+	border-left:50px solid transparent;
+	border-right:50px solid transparent;
+	border-bottom: 100px solid #d4d4f7;
+	margin-bottom:5px;
+}
+.parallelogram{
+	width: 150px;
+	height: 100px;
+	-webkit-transform:skew(20deg);
+	
+}
