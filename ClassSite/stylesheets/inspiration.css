@@ -67,10 +67,6 @@ a:hover{
   color:pink;
 }
 
-a:visited{
-  color:#f0336d;
-}
-
 
 .home{
   flex: 1 1 auto;
