@@ -1,0 +1,23 @@
+body{
+	background-image: url("../sweden.png");
+}
+p{
+	font-family: 'Hind Vadodara', sans-serif;;
+	font-style: normal;
+	color: #ffffff;
+	font-size: 36pt;
+	margin-top: 150pt;
+	padding-right: 500pt;
+	padding-left: 400pt;
+	line-height: 48pt;
+	text-align: justify;
+
+}
+h1{
+	font-family: 'Hind Vadodara', sans-serif;
+	font-weight: black;
+	color: #ffffff;
+	font-size: 200pt;
+	margin-top: 450pt;
+	padding-left: 400pt;
+}
