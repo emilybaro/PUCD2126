@@ -1,0 +1,56 @@
+div{
+	position: absolute;
+	height:100%;
+	width:100%;
+}
+
+.asset24{
+	height:500px;
+	width:500px;
+	margin-left:400px;
+	margin-top:150px;
+}
+.asset25{
+	height:700px;
+	width:700px;
+	margin-left:150px;
+	margin-top:-90px;
+	z-index: 2;
+	transition: transform 10s ease-in-out;
+}
+.asset25:hover{
+	transform: scale(1.4);
+}
+.asset26{
+	height:30px;
+	width:30px;
+	margin-left:630px;
+	margin-top:400px;
+}
+.asset27{
+	height:100px;
+	width:100px;
+	margin-left:180px;
+	margin-top:500px;
+	z-index: 3;
+}
+.asset27:hover{
+	animation-name: jiggle;
+	animation-duration: 3s;
+	animation-iteration-count: 1000;
+}
+.asset29{
+	height:300px;
+	width:300px;
+	margin-left:220px;
+	margin-top:-50px;
+}
+ 
+@keyframes jiggle{
+	0%   {left:5px; top:5px;}
+    25%  {left:0px; top:5px;}
+    50%  {left:0px; top:0px;}
+    75%  {left:5px; top:0px;}
+    100% {left:5px; top:5px;}
+}
+}

@@ -1,0 +1,76 @@
+div{
+	position: absolute;
+	height:100%;
+	width:100%;
+}
+
+.asset13{
+	height:900px;
+	width:900px;
+	margin-left:0px;
+	margin-left:0px;
+	margin-top:250px;
+	z-index: 3;
+	transition: width 20s;
+}
+.asset13:hover{
+	width: 400px;
+}
+.asset14{
+	height:1000px;
+	width:1000px;
+	margin-left:0px;
+	margin-left:100px;
+	margin-top:-50px;
+	z-index: 4;
+	transition: width 2s, height 2s, transform 10s;
+}
+.asset14:hover{
+    transform: rotate(50deg);
+}
+.asset17{
+	height:300px;
+	width:300px;
+	margin-left:500px;
+	margin-top:400px;
+	transition: transform 3s ease-in-out;
+}
+.asset17:hover{
+	transform: scale(0.8);
+}
+.asset21{
+	height:300px;
+	width:300px;
+	margin-left:0px;
+	margin-left:180px;
+	margin-top:100px;
+	z-index: -1;
+}
+.asset22{
+	height:300px;
+	width:300px;
+	margin-left:220px;
+	margin-top:120px;
+}
+.asset19{
+	height:1200px;
+	width:1200px;
+	margin-left:-490px;
+	margin-top:100px;
+}
+
+.asset20{
+	height:60px;
+	width:60px;
+	margin-left:0px;
+	margin-left:170px;
+	margin-top:425px;
+	z-index: -1;
+}
+.asset18{
+	height:50px;
+	width:50px;
+	margin-left:0px;
+	margin-left:0px;
+	margin-top:0px;
+}

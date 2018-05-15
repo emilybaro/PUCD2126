@@ -1,0 +1,47 @@
+div{
+	position: absolute;
+	height:100%;
+	width:100%;
+}
+
+.asset30{
+	height:300px;
+	width:300px;
+	margin-left:160px;
+	margin-top:160px;
+	z-index: 3;
+	transition: transform 10s ease-in-out;
+}
+.asset30:hover{
+	transform: scale(1.4);
+}
+.asset31{
+	height:500px;
+	width:500px;
+	margin-left:350px;
+	margin-top:-30px;
+	z-index: 0;
+	transition: transform 10s ease-in-out;
+}
+.asset31:hover{
+	transform: scale(1.4);
+}
+.asset33{
+	height:25px;
+	width:25px;
+	margin-left:280px;
+	margin-top:330px;
+	z-index: 5;
+}
+.asset34{
+	height:280px;
+	width:280px;
+	margin-left:280px;
+	margin-top:100px;
+	z-index: -1;
+}
+/*.asset34:hover{
+	animation-name: jiggle;
+	animation-duration: 3s;
+	animation-iteration-count: 1000;
+} */

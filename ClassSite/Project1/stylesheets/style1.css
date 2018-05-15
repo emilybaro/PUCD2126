@@ -1,0 +1,62 @@
+div{
+	position: absolute;
+	height:100%;
+	width:100%;
+}
+
+.asset2{
+	height:3250px;
+	width:3250px;
+	margin-left:1800px;
+	margin-top:400px;
+	transition: transform 1000ms ease-in-out;
+
+}
+.asset2:hover{
+	transform: scale(1.2);
+}
+
+.asset10{
+	height:150px;
+	width:150px;
+	margin-left: 500px;
+	margin-left:870px;
+	margin-top:2070px;
+    transition: width 2s, height 2s, transform 2s;
+}
+.asset10:hover{
+	-webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+
+}
+.asset11{
+	height:100px;
+	width:100px;
+	margin-top: 2540px;
+	margin-left: 1700px;
+    transition: width 2s, height 2s, transform 2s;
+}
+.asset11:hover{
+	-webkit-transform: rotate(180deg); /* Safari */
+    transform: rotate(180deg);
+
+}
+.asset9{
+	height:800px;
+	width:800px;
+	margin-left:600px;
+	margin-top:1750px;
+}
+.asset5{
+	height:3250px;
+	width:3250px;
+	margin-top: 2400px;
+	z-index: -1;
+}
+.asset12{
+	height:100px;
+	width:100px;
+	margin-top: 2540px;
+	margin-left: 1700px;
+	z-index: -1;
+}
